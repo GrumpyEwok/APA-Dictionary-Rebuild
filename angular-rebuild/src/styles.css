@@ -24,3 +24,7 @@ p {
   word-spacing: normal;
   color: #000;
 }
+
+.card-header {
+  background-color: #fff!important;
+}

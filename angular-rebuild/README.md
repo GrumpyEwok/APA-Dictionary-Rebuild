@@ -1,3 +1,9 @@
+#Setup Instructions
+
+Clone this repository, navigate to the top-level directory of the repository and run `npmi install` to install all needed dependencies.  Run `ng serve --open` to host the repository at localhost:4200.
+
+
+
 # Plan of Attack:
 
 I'm going to be doing a rebuild of the American Psychological Association's online dictionary.  It's freely available to the public, and subsequently there's not a lot of CRUD functionality to play with -- however, I can always add it in/switch to an Authorized view mode. The main components are going to be:
@@ -12,7 +18,17 @@ ContentBodyComponent should be in charge of displaying content in the main secti
 
 A Footer.
 
--- 8:40am Accidentally broke roommate's mug. :<
+
+# Further Goals
+
+Explore linking the Word of the Day section to its corresponding term in the dictionary -- this may be too intensive if mocking a DB is my only option to acquire terms.
+
+Add an "Authorized User View" with CRUD functionality for the word of the day, list items and dictionary entries.
+
+Make the word of the day dynamic to the current date.
+
+
+
 
 # Color Palette:  
 

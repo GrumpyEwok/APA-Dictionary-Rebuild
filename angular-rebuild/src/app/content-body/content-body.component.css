@@ -24,7 +24,7 @@
 }
 
 .letter {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   width: 34px;
   height: 34px;
@@ -95,4 +95,9 @@ input {
 button {
   background-color: #005499;
   border-color: #005499;
+}
+
+#letters-container {
+  display: flex;
+  flex-direction: row;
 }

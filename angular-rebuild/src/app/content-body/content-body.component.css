@@ -6,11 +6,19 @@ div {
   font-family: 'Montserrat', sans-serif;
 }
 
-.content-wrapper {
+.content-body-wrapper {
   display: flex;
   flex: 0 0 66.66666667%;
     /* flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 66.6667%; */
   max-width: 66.66666667%;
+}
+
+.sidebar-wrapper {
+  flex: 0 0 33.33333333%;
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 33.3333%; */
+  max-width: 33.33333333%;
 }

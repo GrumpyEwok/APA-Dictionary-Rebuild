@@ -6,9 +6,16 @@ div {
   font-family: 'Montserrat', sans-serif;
 }
 
+.card {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0%;
+  margin: 1em 15px 0 15px;
+}
+
 .content-body-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   flex-grow: 0;
   flex-shrink: 0;

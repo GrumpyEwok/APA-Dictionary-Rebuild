@@ -1,8 +1,8 @@
-.container {
+.page-wrapper {
   width: 100%;
-  max-width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 1234px;
+  padding: 0 15px 0;
+  padding-left: 0 15px 0;
   margin-right: auto;
   margin-left: auto;
 }

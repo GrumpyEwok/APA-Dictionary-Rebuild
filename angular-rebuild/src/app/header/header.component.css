@@ -1,0 +1,27 @@
+header {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  background: #fff;
+  border-bottom: 2px solid #555;
+  font-size: 75%;
+  font-family: Arial, sans-serif;
+  line-height: 1.3em;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+aside {
+  height: 30px;
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 0;
+}
+
+.header-utilities {
+  float: right;
+  position: relative;
+  z-index: 110;
+  clear: right;
+  height: 30px;
+}

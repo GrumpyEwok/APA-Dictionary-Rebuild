@@ -2,11 +2,11 @@
 
 * {
   box-sizing: border-box;
-  overflow: auto;
+  color: #444;
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1!important;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 1rem;
@@ -14,4 +14,13 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+}
+
+p {
+  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.375em;
+  letter-spacing: normal;
+  word-spacing: normal;
+  color: #000;
 }

@@ -8,7 +8,7 @@ A Side Nav (with List Items)
 
 A Main Display Area:  An Array of Letters (displayed), a line stating the number of entrees in the dictionary (which I could make dynamic in respect to the CRUD functionality I can add later) a "Word of the Day" feature/hero.
 
-ContentBodyComponent should basically just be a large flex-box.
+ContentBodyComponent should be in charge of displaying content in the main section.
 
 A Footer.
 

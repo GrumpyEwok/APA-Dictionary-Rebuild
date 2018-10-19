@@ -10,6 +10,13 @@ A Main Display Area:  An Array of Letters (displayed), a line stating the number
 
 A Footer.
 
+-- 8:40am Accidentally broke roommate's mug. :<
+
+# Color Palette:  
+
+button blue: #005499;
+banner blue: #46657f;
+footer grey: #ebebeb;
 
 
 # AngularRebuild

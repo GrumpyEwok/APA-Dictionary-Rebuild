@@ -1,0 +1,17 @@
+footer {
+  background-color: #ebebeb;
+  color: #000;
+  font-family: cursive;
+  margin: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer-content a {
+  color: #005499;
+}

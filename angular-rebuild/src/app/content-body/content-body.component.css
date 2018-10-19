@@ -1,9 +1,16 @@
 div {
-  height: 22em;
-  width: 760px;
   font-family: 'Roboto', sans-serif;
 }
+
 .header {
 font-family: 'Montserrat', sans-serif;
-float: right;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 0 0 66.66666667%;
+    /* flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 66.6667%; */
+  max-width: 66.66666667%;
 }

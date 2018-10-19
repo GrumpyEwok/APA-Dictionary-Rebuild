@@ -1,7 +1,7 @@
 footer {
   background-color: #ebebeb;
   color: #000;
-  font-family: cursive;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
 }
 
@@ -14,4 +14,5 @@ footer {
 
 .footer-content a {
   color: #005499;
+  font-family: 'Quicksand', sans-serif;
 }

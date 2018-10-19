@@ -8,6 +8,8 @@ A Side Nav (with List Items)
 
 A Main Display Area:  An Array of Letters (displayed), a line stating the number of entrees in the dictionary (which I could make dynamic in respect to the CRUD functionality I can add later) a "Word of the Day" feature/hero.
 
+ContentBodyComponent should basically just be a large flex-box.
+
 A Footer.
 
 -- 8:40am Accidentally broke roommate's mug. :<
@@ -18,6 +20,11 @@ button blue: #005499;
 banner blue: #46657f;
 footer grey: #ebebeb;
 
+# Font:
+
+font-family: 'Roboto', sans-serif; -- regular 400
+font-family: 'Quicksand', sans-serif; -- light 300
+font-family: 'Montserrat', sans-serif; -- SemiBold 600
 
 # AngularRebuild
 

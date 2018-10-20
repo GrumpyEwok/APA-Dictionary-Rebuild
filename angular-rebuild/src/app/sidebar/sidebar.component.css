@@ -3,10 +3,6 @@
   padding-left: 15px;
 }
 
-.card-deck {
-
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -25,8 +21,13 @@
   flex-direction: column;
   padding-left: 0;
   margin: 0;
+  list-style-type: none;
 }
 
-.list-group-item {
-
+ul li {
+    color: #005499!important;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
 }

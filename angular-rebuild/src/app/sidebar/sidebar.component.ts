@@ -6,7 +6,7 @@ import { Article } from './../models/articles.model';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
-  articles: Article = [
+  public articles = [
     new Article("Abuse of women in European parliaments widespread"),
     new Article("The link between chronic pain and mental health"),
     new Article("Facebook posts may point to depression"),

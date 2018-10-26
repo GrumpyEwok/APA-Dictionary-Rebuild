@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { LETTERS } from '../models/letter.model';
 
 @Component({
   selector: 'app-letter-display',
@@ -6,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./letter-display.component.css']
 })
 export class LetterDisplayComponent implements OnInit {
-  public letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-  constructor() { }
+  letters: string[] = ["a", "b"];
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
+
   }
 
+  routeToTerms(clickedLetter) {
+    console.log(clickedLetter)
+    this.router.navigate(['terms', clickedLetter]);
+  }
 }

@@ -21,6 +21,8 @@ A Footer.
 
 # Further Goals
 
+Seaparate letters and terms into a Terms service.
+
 Explore linking the Word of the Day section to its corresponding term in the dictionary -- this may be too intensive if mocking a DB is my only option to acquire terms.
 
 Add an "Authorized User View" with CRUD functionality for the word of the day, list items and dictionary entries.

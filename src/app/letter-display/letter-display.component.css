@@ -14,3 +14,17 @@
   cursor: pointer;
   padding: 0;
 }
+
+.card {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-family: Roboto, serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.1em;
+  color: #444;
+  padding: 0 0 .1em;
+  margin: 1rem;
+}

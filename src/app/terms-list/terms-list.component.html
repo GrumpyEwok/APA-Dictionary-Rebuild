@@ -1,7 +1,7 @@
 <div class="card-deck">
   <div class="card">
     <div class="card-body" id="letters-container">
-      <p class="subheading">Browse by {{ selectedLetter | uppercase }}</p>
+      <h3 class="subheading">Browse by {{ selectedLetter | uppercase }}</h3>
       <div id="terms-list">
 
         <a *ngFor="let term of terms">{{ selectedLetter }}</a>

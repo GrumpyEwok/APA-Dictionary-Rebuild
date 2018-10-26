@@ -11,6 +11,13 @@ header {
   word-spacing: normal;
 }
 
+img {
+  max-width: 430px;
+  height: auto;
+  margin: 13px 0 13px 4%;
+
+}
+
 aside {
   height: 30px;
   background-color: #f1f1f1;
@@ -24,4 +31,34 @@ aside {
   z-index: 110;
   clear: right;
   height: 30px;
+}
+
+.header-utilities ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none;
+  padding: 9px 0 0 0;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #46657f;
+  list-style: none;
+  border-width: 1px 0;
+  font-size: 13.5px;
+  padding-left: 15px;
+  overflow: auto;
+}
+
+.top-nav li {
+  padding: 14px 29px 12px 0;
+  float: left;
+  font-weight: 400;
+}
+
+.top-nav li a {
+  color: #fff;
+  line-height: 1.5em;
+  text-transform: uppercase;
 }

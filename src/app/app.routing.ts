@@ -11,7 +11,7 @@ const appRoutes: Routes = [
   },
   {
     path: 'terms/:letter',
-    component: ContentBodyComponent,
+    component: LetterDetailComponent,
   }
 ];
 

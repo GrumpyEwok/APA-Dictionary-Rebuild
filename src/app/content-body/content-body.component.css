@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 164px 15px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-deck {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0%;
+  margin: 1rem 15px 0;
+  background-color: #fff;
+}
+
+.letter {
+  display: inline-block;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  margin: .34em!important;
+  background-color: #868e96!important;
+  font-size: 1.44em!important;
+  line-height: 34px;
+  color: #fff!important;
+  border-color: #868e96!important;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+}
+
+.content-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 66.66%;
+  width: 100%;
+  max-width: 66.66%;
+  padding: 0 15px;
+}
+
+.sidebar-wrapper {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.33%;
+  width: 100%;
+  max-width: 33.33%;
+}
+
+.subheading {
+  font-family: Quicksand, sans-serif;
+  font-size: 1.5em;
+  line-height: 1.1em;
+}
+
+h1 {
+  font-family: Roboto, serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.1em;
+  color: #444;
+  padding: 0 0 .1em;
+  margin: 1rem;
+}
+
+form {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.input-group {
+  display: flex;
+  align-items: stretch;
+  width: 100%!important;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+  background-color: #005499;
+  border-color: #005499;
+}
+
+#letters-container {
+  display: flex;
+  flex-direction: row;
+}

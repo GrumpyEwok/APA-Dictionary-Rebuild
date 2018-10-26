@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  float: left;
+  padding: 10px 0 0;
+  margin: 8rem auto 0;
+  background-color: #ebebeb;
+  border-top: 3px solid #bababa;
+  color: #333;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer-content a {
+  color: #005499;
+}

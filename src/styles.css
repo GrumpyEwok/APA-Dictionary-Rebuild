@@ -20,6 +20,10 @@ body {
   background-color: #fff!important;
 }
 
+.card {
+  margin-top: 1rem;
+}
+
 h1 {
   font-family: Roboto, serif;
   font-size: 2.5em;
@@ -37,4 +41,8 @@ p {
   letter-spacing: normal;
   word-spacing: normal;
   color: #000;
+}
+
+.pointer-cursor {
+  cursor: pointer;
 }

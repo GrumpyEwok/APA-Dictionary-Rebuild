@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 164px 15px 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+}

@@ -1,3 +1,15 @@
-<div *ngFor="let letter of letters" class="card letter">
-  <a (click)="routeToTerms(letter)">{{letter}}</a>
+<div class="card-deck">
+  <div class="card">
+    <div class="card-body" id="letters-container">
+      <p class="subheading">Browse Dictionary</p>
+      <div class="letters-wrapper">
+
+<!-- use *ngFor to duplicate for each Letter[] -->
+        <div *ngFor="let letter of letters" class="card letter">
+          <a (click)="routeToTerms(letter)">{{letter}}</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
 </div>

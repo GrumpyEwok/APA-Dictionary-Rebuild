@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-content-body',
-  templateUrl: './content-body.component.html',
-  styleUrls: ['./content-body.component.css']
+  selector: 'app-letter-display',
+  templateUrl: './letter-display.component.html',
+  styleUrls: ['./letter-display.component.css']
 })
-export class ContentBodyComponent implements OnInit {
+export class LetterDisplayComponent implements OnInit {
   public letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-
   constructor() { }
 
   ngOnInit() {

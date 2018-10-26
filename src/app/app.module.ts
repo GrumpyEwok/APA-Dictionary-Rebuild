@@ -9,6 +9,8 @@ import { ContentBodyComponent } from './content-body/content-body.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { LetterDisplayComponent } from './letter-display/letter-display.component';
 import { LetterDetailComponent } from './letter-detail/letter-detail.component';
+import { TermsListComponent } from './terms-list/terms-list.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LetterDetailComponent } from './letter-detail/letter-detail.component';
     ContentBodyComponent,
     SidebarComponent,
     LetterDisplayComponent,
-    LetterDetailComponent
+    LetterDetailComponent,
+    TermsListComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

@@ -76,27 +76,6 @@ h1 {
   margin: 1rem;
 }
 
-form {
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-
-.input-group {
-  display: flex;
-  align-items: stretch;
-  width: 100%!important;
-}
-
-input {
-    width: 100%;
-}
-
-button {
-  background-color: #005499;
-  border-color: #005499;
-}
-
 #letters-container {
   display: flex;
   flex-direction: row;

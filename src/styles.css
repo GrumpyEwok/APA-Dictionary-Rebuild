@@ -16,6 +16,20 @@ body {
   text-align: left;
 }
 
+.card-header {
+  background-color: #fff!important;
+}
+
+h1 {
+  font-family: Roboto, serif;
+  font-size: 2.5em;
+  font-weight: 400;
+  line-height: 1.1em;
+  color: #444;
+  padding: 0 0 .1em;
+  margin: 1rem;
+}
+
 p {
   font-weight: 300;
   font-size: 100%;
@@ -23,8 +37,4 @@ p {
   letter-spacing: normal;
   word-spacing: normal;
   color: #000;
-}
-
-.card-header {
-  background-color: #fff!important;
 }

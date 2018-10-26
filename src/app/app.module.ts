@@ -11,6 +11,7 @@ import { LetterDisplayComponent } from './letter-display/letter-display.componen
 import { LetterDetailComponent } from './letter-detail/letter-detail.component';
 import { TermsListComponent } from './terms-list/terms-list.component';
 import { SearchComponent } from './search/search.component';
+import { FeaturedTermComponent } from './featured-term/featured-term.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SearchComponent } from './search/search.component';
     LetterDisplayComponent,
     LetterDetailComponent,
     TermsListComponent,
-    SearchComponent
+    SearchComponent,
+    FeaturedTermComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,13 @@
-<p>
-  terms-list works!
-</p>
+<div class="card-deck">
+  <div class="card">
+    <div class="card-body" id="letters-container">
+      <p class="subheading">Browse by {{ selectedLetter | uppercase }}</p>
+      <div id="terms-list">
+
+        <a *ngFor="let term of terms">{{ selectedLetter }}</a>
+
+
+      </div>
+    </div>
+  </div>
+</div>

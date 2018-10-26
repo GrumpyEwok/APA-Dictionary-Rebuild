@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-terms-list',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./terms-list.component.css']
 })
 export class TermsListComponent implements OnInit {
-
-  constructor() { }
+  selectedLetter: string;
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.route.params.forEach((urlParameters) => {
+     this.selectedLetter = urlParameters['letter'];
+   });
   }
-
 }

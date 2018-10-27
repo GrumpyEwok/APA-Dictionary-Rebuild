@@ -2,11 +2,18 @@
   <div class="card">
     <div class="card-body" id="letters-container">
       <h3 class="subheading">Browse by {{ selectedLetter | uppercase }}</h3>
-      <div id="terms-list">
+      <div class="containter">
+        <div class="row">
 
-        <a *ngFor="let term of terms">{{ selectedLetter }}</a>
+          <div id="terms-list">
+            <ul>
+              <li><a>These are sample entries.</a></li>
+              <li><a>{{ selectedLetter }}</a></li>
+              <li><a>{{ selectedLetter }}</a></li>
+            </ul>
+          </div>
 
-
+        </div>
       </div>
     </div>
   </div>

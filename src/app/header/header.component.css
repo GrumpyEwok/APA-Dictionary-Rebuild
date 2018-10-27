@@ -14,7 +14,7 @@ header {
 img {
   max-width: 430px;
   height: auto;
-  margin: 13px 0 13px 4%;
+  margin: 13px 0 13px 10%;
 
 }
 
@@ -31,6 +31,7 @@ aside {
   z-index: 110;
   clear: right;
   height: 30px;
+  margin-right: 12%;
 }
 
 .header-utilities ul li {
@@ -49,6 +50,12 @@ aside {
   font-size: 13.5px;
   padding-left: 15px;
   overflow: auto;
+}
+
+@media (max-width: 1245px) {
+  .top-nav {
+    display: none;
+  }
 }
 
 .top-nav li {

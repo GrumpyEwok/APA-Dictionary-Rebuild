@@ -1,4 +1,4 @@
-#Setup Instructions
+# Setup Instructions
 
 Clone this repository, navigate to the top-level directory of the repository and run `npmi install` to install all needed dependencies.  Run `ng serve --open` to host the repository at localhost:4200.
 
